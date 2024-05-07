@@ -1,0 +1,69 @@
+.icon {
+    max-width: 100px !important;
+}
+
+div.card {
+    position: relative;
+    overflow: hidden;
+    margin-block: 20px;
+}
+
+img.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+  
+div.card-body {
+    padding: 0.5rem;
+    position: relative;
+}
+  
+h5.card-title {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.raiting {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: gray;
+    width: 40px;
+    border-radius: 10px;
+    padding-inline: 3px;
+}
+
+p.card-text {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+  
+small.text-muted {
+    font-size: 0.8rem;
+    color: white !important;
+    align-self: center;
+}
+
+a.card-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+i.fas {
+    color: white;
+}
+
+button.btn {
+    margin-bottom: 10px;
+    background-color: white;
+    border-color: black;
+}
